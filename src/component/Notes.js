@@ -4,12 +4,14 @@ import Context from "../context/notes/noteContext"
 import NoteItem from "./NoteItem"
 export const Notes = () => {
   const Note = useContext(Context)
-  const { state, addNote } = Note
+  const { state } = Note
   return (
     <div className='row'>
       {state.map((e) => {
         return <NoteItem key={state.__v} note={e}></NoteItem>
-      })}</div>
+      })
+      }
+      </div>
   )
 }
 export default Notes

@@ -8,7 +8,7 @@ export const NoteItem = (props) => {
   <div className="card-body">
     <h5 className="card-title">{note.title}</h5>
     <p className="card-text">{note.desc}</p>
-    <a href="#" className="btn btn-primary"><i className="far fa-trash-alt"></i></a>
+    <a href="/" className="btn btn-primary"><i className="far fa-trash-alt"></i></a>
   </div>
 </div>
   )
