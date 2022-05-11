@@ -8,7 +8,7 @@ export const Notes = () => {
   return (
     <div className='row'>
       {state.map((e) => {
-        return <NoteItem key={state.__v} note={e}></NoteItem>
+        return <NoteItem note={e}></NoteItem>
       })
       }
       </div>
